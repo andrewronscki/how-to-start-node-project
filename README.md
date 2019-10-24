@@ -27,8 +27,9 @@ const LanguageSchema = new Schema({
     required: true,
   },
 });
-```
+
 export default model('Languages', LanguageSchema);
+```
 ### integration model in controller 
 ### create function index and store
 ### create call tests in Insomnia or Postman
