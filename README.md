@@ -1,20 +1,17 @@
-## omni init {package_name} --only=server
---
-## docker run --name {container_name} -p 27017:27017 -d -t mongo
---
-## criação do controller
---
-## alteração do route
---
-## yarn add mongoose
---
-## integração com api
+## How to start node project with @omni-cli
+
+### omni init {package_name} --only=server
+### yarn dev or npm run dev
+### docker run --name {container_name} -p 27017:27017 -d -t mongo
+### create controller
+### change route
+### yarn add mongoose
+### integration with api
 mongoose.connect('mongodb://localhost:27017', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
---
-## criação de model
+### create model
 import { Schema, model } from 'mongoose';
 
 const LanguageSchema = new Schema({
@@ -27,10 +24,8 @@ const LanguageSchema = new Schema({
     required: true,
   },
 });
-
 export default model('Languages', LanguageSchema);
---
-## integrar o model no controller
-## criar função index e store
-## fazer chamadas para teste
+### integration model in controller 
+### create function index and store
+### create call tests in Insomnia or Postman
 
