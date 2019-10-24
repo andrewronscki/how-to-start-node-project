@@ -1,7 +1,7 @@
 ## How to start node project with <a href="https://www.npmjs.com/package/@rocketseat/omni-cli">@omni-cli</a>
 
 ### [X] install <a href="https://nodejs.org/en/">Node.js</a>
-### [x] omni init {package_name} --only=server
+### [X] omni init {package_name} --only=server
 ### [x] <strong><a href="https://yarnpkg.com/lang/en/">yarn</a><strong> dev or npm run dev
 ### [x] docker run --name {container_name} -p 27017:27017 -d -t mongo
 ### [x] create controller
