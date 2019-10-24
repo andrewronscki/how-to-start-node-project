@@ -7,11 +7,14 @@
 ### change route
 ### yarn add mongoose
 ### integration with api
+```javascript
 mongoose.connect('mongodb://localhost:27017', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+```
 ### create model
+```javascript
 import { Schema, model } from 'mongoose';
 
 const LanguageSchema = new Schema({
@@ -24,6 +27,7 @@ const LanguageSchema = new Schema({
     required: true,
   },
 });
+```
 export default model('Languages', LanguageSchema);
 ### integration model in controller 
 ### create function index and store
