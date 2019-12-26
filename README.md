@@ -1,4 +1,4 @@
-## How to start node project with <a href="https://www.npmjs.com/package/@rocketseat/omni-cli">@omni-cli</a>
+## How to start node project with <a href="https://www.npmjs.com/package/@rocketseat/omni">@omni</a>
 
 ### install <a href="https://nodejs.org/en/">Node.js</a>
 ### omni init {package_name} --only=server
