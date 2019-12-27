@@ -13,11 +13,13 @@ omni init {package_name} --only=server
 ```
 yarn dev OR npm run dev
 ```
+### create mongo container
 ```
 docker run --name {container_name} -p 27017:27017 -d -t mongo
 ```
 ### create controller
 ### change route
+### install mongoose library
 ```
 yarn add mongoose OR npm i --save mongoose
 ```
