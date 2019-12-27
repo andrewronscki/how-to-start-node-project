@@ -1,21 +1,22 @@
 ## How to start node project with <a href="https://www.npmjs.com/package/@rocketseat/omni">@omni</a>
 
 ### install <a href="https://nodejs.org/en/">Node.js</a>
+### install <a href="https://yarnpkg.com/lang/en/">Yarn</a>
 ### install omni-cli
 ```
-yarn add -g @rocketseat/omni OU npm i -g @rocketseat/omni
+yarn add -g @rocketseat/omni OR npm i -g @rocketseat/omni
 ```
 ```
 omni init {package_name} --only=server
 ```
-<strong><a href="https://yarnpkg.com/lang/en/">yarn</a><strong> dev or npm run dev
+yarn dev OR npm run dev
 ```
 docker run --name {container_name} -p 27017:27017 -d -t mongo
 ```
 ### create controller
 ### change route
 ```
-yarn add mongoose OU npm i --save mongoose
+yarn add mongoose OR npm i --save mongoose
 ```
 ### integration with api
 ```javascript
