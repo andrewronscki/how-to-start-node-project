@@ -3,14 +3,20 @@
 ### install <a href="https://nodejs.org/en/">Node.js</a>
 ### install omni-cli
 ```
-yarn add -g @rocketseat/omni
+yarn add -g @rocketseat/omni OU npm i -g @rocketseat/omni
 ```
-### omni init {package_name} --only=server
-### <strong><a href="https://yarnpkg.com/lang/en/">yarn</a><strong> dev or npm run dev
-### docker run --name {container_name} -p 27017:27017 -d -t mongo
+```
+omni init {package_name} --only=server
+```
+<strong><a href="https://yarnpkg.com/lang/en/">yarn</a><strong> dev or npm run dev
+```
+docker run --name {container_name} -p 27017:27017 -d -t mongo
+```
 ### create controller
 ### change route
-### yarn add mongoose
+```
+yarn add mongoose OU npm i --save mongoose
+```
 ### integration with api
 ```javascript
 mongoose.connect('mongodb://localhost:27017', {
