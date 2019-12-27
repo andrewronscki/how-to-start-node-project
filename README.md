@@ -9,7 +9,10 @@ yarn add -g @rocketseat/omni OR npm i -g @rocketseat/omni
 ```
 omni init {package_name} --only=server
 ```
+### open the terminal at the root of the project and type it
+```
 yarn dev OR npm run dev
+```
 ```
 docker run --name {container_name} -p 27017:27017 -d -t mongo
 ```
