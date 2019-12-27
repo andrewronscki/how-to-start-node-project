@@ -6,6 +6,7 @@
 ```
 yarn add -g @rocketseat/omni OR npm i -g @rocketseat/omni
 ```
+### use the CLI to create a new project
 ```
 omni init {package_name} --only=server
 ```
