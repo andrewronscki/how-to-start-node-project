@@ -4,7 +4,7 @@
 ### install <a href="https://yarnpkg.com/lang/en/">Yarn</a>
 ### install omni-cli
 ```
-yarn add -g @rocketseat/omni OR npm i -g @rocketseat/omni
+npm i -g @rocketseat/omni
 ```
 ### use the CLI to create a new project
 ```
